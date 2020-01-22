@@ -21,7 +21,7 @@ function myStartFunction(){
 
 
 
-// make local names just to save typing later
+
 const
     startBtn = document.querySelector("#start"),
 	changeBtn = document.querySelector("#change");
@@ -30,11 +30,11 @@ const
 let arr = [];
 
 
-// Initialize objects on the screen  (call method defined below)
-//render();
 
 
-// define what should happen when click each of the 3 buttons
+
+
+
 startBtn.addEventListener("click",myStartFunction,false);
 changeBtn.addEventListener("click",startWordChange,false)
 changeBtn.style.display = "none";
