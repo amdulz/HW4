@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dice Game</title>
+    <!-- <documentation at http://demos.jquerymobile.com/1.4.1/ > -->
+     <!-- <documentation at http://demos.jquerymobile.com/1.1.1/ > -->
+    
+
+    <!-- <link rel="stylesheet" type="text/css" href="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.css"/>
+    <script src="http://code.jquery.com/jquery-1.8.2.min.js"> </script>
+    <script src="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.js"></script> -->
+
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    
+
+       <script src="index.js"></script>
+</head>
+
+<body>
+
+    <!--HOme Page -->
+    <div data-role="page"  id="home">
+            <!--  login page header -->
+            <div data-role="header" data-theme='b'>
+                <h1>The Amazing Course Project!</h1>
+                <a href="#page1">Page1</a> <br />
+                <a href="#page2">Page2</a> <br />
+                <a href="#page3">Page3</a> <br />
+                </div>
+                <div data-role="content" data-theme='e'>
+                <h2>This project is great</h2> <br />
+              
+              
+            <!--  login page footer -->
+            <div data-role="footer" data-theme='b'>
+                    <h1>Copyright 2020 by Amber Dulz</h1>
+            </div>
+        </div>
+
+
+        <div data-role="page"  id="page1">
+            <!--  page1 -->
+            <!--  login page header -->
+            <div data-role="header" data-theme='b'>
+                <h1>The Amazing Course Project!</h1>
+                <a href="#home">Home</a> <br />
+                <a href="#page2">Page2</a> <br />
+                <a href="#page3">Page3</a> <br />
+                </div>
+            <!--  newaccount page content -->
+            <div data-role="content" data-theme='e'>
+                Enter your first name <br />
+                <input type="text" value="" id="firstName" />
+                Enter your last name <br />
+                <input type="text" value="" id="lastName" />
+                <input type="button" value="Click To Create Account" id="buttonLogin" />
+            </div>
+              
+            <!--  newaccount page footer -->
+            <div data-role="footer" data-theme='b'>
+                    <h1>Copyright 2020 by Amber Dulz</h1>
+            </div>
+        </div>
+
+       
+
+    
+
+    <!-- Start of gamelost page -->
+    <div data-role="page"  id="page2">
+            <!--  login page header -->
+            <div data-role="header" data-theme='b'>
+                <h1>The Amazing Course Project!</h1>
+                <a href="#home">Home</a> <br />
+                <a href="#page1">Page1</a> <br />
+                <a href="#page3">Page3</a> <br />
+                </div>
+            <!--  gamelost page content -->
+            <div data-role="content" data-theme='e'>
+               <p>I am on the second page</p>
+            
+               <div id="divuserlist"></div>
+              
+            <!--  gamelost page footer -->
+            <div data-role="footer" data-theme='b'>
+                    <h1>Copyrigtht 2020 by Amber Dulz</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- Start of gamewon page -->
+    <div data-role="page"  id="page3">
+        <div data-role="header" data-theme='b'>
+            <h1>The Amazing Course Project!</h1>
+            <a href="#home">Home</a> <br />
+            <a href="#page1">Page1</a> <br />
+            <a href="#page2">Page2</a> <br />
+            </div>
+            <!--  gamewon page content -->
+            <div data-role="content" data-theme='e'>
+                <p> I am on the 3rd page</p>
+                <p id ="user">CHANGE</p>
+                <p id="IDparmHere" hidden >change1</p>
+               
+            </div>
+              
+            <!--  gamewon page footer -->
+            <div data-role="footer" data-theme='b'>
+                    <h1>Copyright 2020 by Amber Dulz</h1>
+            </div>
+        </div>
+    </div>
+
+        
+
+</body>
+</html>
